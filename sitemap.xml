@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://website-saquin.github.io/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Pesantren%20Al%20Quran%20Darul%20Khair.jpeg</image:loc>
+      <image:title>Gedung Pesantren Al-Qur'an Darul Khair Saquin Bogor</image:title>
+      <image:caption>Pesantren Al-Qur'an Darul Khair Saquin Kampus Kemang Bogor</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Brosur%20Pendaftaran%20Siswa%20Baru%20SMP%20MTs%20MA%20Saquin.jpeg</image:loc>
+      <image:title>Brosur SPMB SMP MTs MA Saquin</image:title>
+      <image:caption>Informasi Penerimaan Siswa Baru Jenjang SMP, MTs, dan MA Saquin</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Penerimaan%20Murid%20Baru%20SD%20Saquin.jpeg</image:loc>
+      <image:title>Brosur Penerimaan Murid Baru SD Saquin</image:title>
+      <image:caption>Pendaftaran Siswa Baru SD Saquin Bogor</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Kegiatan%20Tahfidz%20Saquin.jpeg</image:loc>
+      <image:title>Kegiatan Tahfidz Al-Qur'an Santri Saquin</image:title>
+      <image:caption>Program Tahfidz dan Muroja'ah Al-Qur'an Intensif Santri Saquin</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Foto%20Pengurus%20Saquin.jpeg</image:loc>
+      <image:title>Dewan Pengurus dan Asatidz Saquin</image:title>
+      <image:caption>Asatidz dan Pimpinan Pesantren Al-Qur'an Darul Khair Saquin</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Seminar%20Pengembangan%20Bahasa%20dan%20Inggris.jpeg</image:loc>
+      <image:title>Seminar Pengembangan Bahasa Santri Saquin</image:title>
+      <image:caption>Program Pengembangan Bahasa Arab dan Inggris Santri Saquin</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Kegiatan%20Baris%20Berbaris.jpeg</image:loc>
+      <image:title>Ekstrakurikuler Disiplin dan Baris Berbaris Saquin</image:title>
+      <image:caption>Pembentukan Karakter Mandiri dan Disiplin Santri Saquin</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Pramuka.jpeg</image:loc>
+      <image:title>Kegiatan Pramuka Santri Saquin</image:title>
+      <image:caption>Pendidikan Kepanduan dan Kepemimpinan Pramuka Saquin</image:caption>
+    </image:image>
+  </url>
+</urlset>

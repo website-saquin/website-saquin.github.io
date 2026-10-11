@@ -1,0 +1,17 @@
+{
+  "name": "Saquin - Sekolah Al-Qur'an Indonesia",
+  "short_name": "Saquin",
+  "description": "Company Profile resmi Saquin dan Pesantren Tahfidz Al-Qur'an Darul Khoir Bogor",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#056b46",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "128x128 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

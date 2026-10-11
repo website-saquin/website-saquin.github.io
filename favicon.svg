@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#056b46" />
+      <stop offset="100%" stop-color="#03472e" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6b834" />
+      <stop offset="100%" stop-color="#b87600" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded box -->
+  <rect width="128" height="128" rx="28" fill="url(#bgGrad)" />
+  
+  <!-- Subtle inner border -->
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="none" stroke="#f6b834" stroke-opacity="0.3" stroke-width="2" />
+
+  <!-- Quran Rehal / Open Book Icon in Gold -->
+  <g transform="translate(64, 60)">
+    <!-- Crescent Moon behind -->
+    <path d="M 0 -36 A 22 22 0 1 1 -20 18 A 26 26 0 1 0 0 -36 Z" fill="url(#goldGrad)" opacity="0.4" />
+    
+    <!-- Open Book Pages (Left & Right) -->
+    <path d="M -3 -12 C -14 -20 -28 -18 -40 -12 C -42 -5 -40 18 -39 23 C -26 18 -13 18 -3 24 Z" fill="#ffffff" />
+    <path d="M 3 -12 C 14 -20 28 -18 40 -12 C 42 -5 40 18 39 23 C 26 18 13 18 3 24 Z" fill="#ffffff" />
+    
+    <!-- Quran Book Spine / Center Binding -->
+    <path d="M -3 -12 L 0 -14 L 3 -12 L 3 24 L 0 26 L -3 24 Z" fill="#e69500" />
+    
+    <!-- Decorative book lines -->
+    <path d="M -34 -4 C -24 -9 -14 -8 -6 -3 M -33 5 C -24 0 -14 1 -6 6 M -32 14 C -24 9 -14 10 -6 15" stroke="#056b46" stroke-width="1.8" stroke-linecap="round" fill="none" />
+    <path d="M 34 -4 C 24 -9 14 -8 6 -3 M 33 5 C 24 0 14 1 6 6 M 32 14 C 24 9 14 10 6 15" stroke="#056b46" stroke-width="1.8" stroke-linecap="round" fill="none" />
+
+    <!-- Wooden Rehal / Book Stand -->
+    <path d="M -22 24 L -34 40 L -25 40 L -12 26 L 0 35 L 12 26 L 25 40 L 34 40 L 22 24 Z" fill="url(#goldGrad)" />
+    
+    <!-- Star on top -->
+    <polygon points="0,-26 2.5,-18 10,-18 4,-13 6.5,-5 0,-10 -6.5,-5 -4,-13 -10,-18 -2.5,-18" fill="url(#goldGrad)" />
+  </g>
+</svg>

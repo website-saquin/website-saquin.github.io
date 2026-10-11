@@ -1,0 +1,6 @@
+# Robots.txt for Saquin (Sekolah Al-Qur'an Indonesia & Pesantren Darul Khoir)
+User-agent: *
+Allow: /
+
+# Sitemap URL for Google Search Console & Search Engines
+Sitemap: https://website-saquin.github.io/sitemap.xml
