@@ -46,5 +46,15 @@
       <image:title>Kegiatan Pramuka Santri Saquin</image:title>
       <image:caption>Pendidikan Kepanduan dan Kepemimpinan Pramuka Saquin</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Kegiatan%20MPLS.jpeg</image:loc>
+      <image:title>Kegiatan Masa Pengenalan Lingkungan Sekolah (MPLS) Saquin</image:title>
+      <image:caption>Masa Pengenalan Lingkungan Sekolah dan Budaya Belajar Santri Saquin</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://website-saquin.github.io/Bahan/Kegiatan%20MPLS%202.jpeg</image:loc>
+      <image:title>Kegiatan MPLS dan Kebersamaan Santri Baru Saquin</image:title>
+      <image:caption>Pembentukan Karakter dan Adaptasi Santri Baru di Pondok Pesantren Saquin</image:caption>
+    </image:image>
   </url>
 </urlset>

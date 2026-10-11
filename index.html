@@ -60,13 +60,19 @@
         "contactPoint": [
           {
             "@type": "ContactPoint",
+            "telephone": "+62-878-7190-6812",
+            "contactType": "Call Center / Admissions",
+            "availableLanguage": ["id", "en", "ar"]
+          },
+          {
+            "@type": "ContactPoint",
             "telephone": "+62-877-1573-0916",
             "contactType": "Admissions SD",
             "availableLanguage": ["id", "en", "ar"]
           },
           {
             "@type": "ContactPoint",
-            "telephone": "+62-856-9444-8881",
+            "telephone": "+62-878-7190-6812",
             "contactType": "Admissions SMP MTs MA",
             "availableLanguage": ["id", "en", "ar"]
           }
@@ -235,24 +241,24 @@
   <!-- TOP BAR -->
   <div class="bg-saquin-emeraldDark text-emerald-100 text-xs py-2 px-4 border-b border-emerald-800/60 sticky top-0 z-50 transition-all duration-300">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-      <div class="flex items-center gap-3 flex-wrap justify-center sm:justify-start">
-        <span class="inline-flex items-center gap-1.5 bg-saquin-gold/25 text-saquin-goldLight px-2.5 py-0.5 rounded-full font-semibold border border-saquin-gold/40">
-          <i class="fa-solid fa-bullhorn text-[10px]"></i> SPMB Dibuka
+      <div class="flex items-center gap-2 flex-wrap justify-center sm:justify-start">
+        <span class="inline-flex items-center gap-1 bg-saquin-gold/25 text-saquin-goldLight px-2.5 py-0.5 rounded-full font-semibold border border-saquin-gold/40 text-[11px]">
+          <i class="fa-solid fa-bullhorn text-[10px]"></i> SPMB 2027/2028
         </span>
-        <span>Penerimaan Santri Baru Tahun Ajaran 2027/2028 (Gelombang 1 Diskon Khusus!)</span>
+        <span class="text-slate-200">Pendaftaran Santri Baru Dibuka (Gelombang 1)</span>
       </div>
-      <div class="flex items-center gap-4 text-xs font-medium">
+      <div class="flex items-center gap-3 text-xs font-medium flex-wrap justify-center">
+        <a href="tel:087871906812" class="hover:text-saquin-goldLight transition flex items-center gap-1">
+          <i class="fa-solid fa-headset text-saquin-goldLight"></i> Call Center: <span class="font-bold text-white">0878-7190-6812</span>
+        </a>
+        <span class="text-emerald-700">|</span>
         <a href="https://wa.me/6287715730916" target="_blank" class="hover:text-saquin-goldLight transition flex items-center gap-1">
           <i class="fa-brands fa-whatsapp text-green-400"></i> SD: 0877-1573-0916
         </a>
-        <span class="text-emerald-700">|</span>
-        <a href="https://wa.me/6285694448881" target="_blank" class="hover:text-saquin-goldLight transition flex items-center gap-1">
-          <i class="fa-brands fa-whatsapp text-green-400"></i> SMP/MTs: 0856-9444-8881
-        </a>
         <span class="text-emerald-700 hidden md:inline">|</span>
-        <span class="hidden md:flex items-center gap-1 text-emerald-300">
-          <i class="fa-solid fa-location-dot"></i> Kemang, Bogor
-        </span>
+        <a href="https://wa.me/6287871906812" target="_blank" class="hover:text-saquin-goldLight transition hidden md:flex items-center gap-1">
+          <i class="fa-brands fa-whatsapp text-green-400"></i> SMP/MA: 0878-7190-6812
+        </a>
       </div>
     </div>
   </div>
@@ -264,44 +270,37 @@
         
         <!-- LOGO BRAND -->
         <a href="#beranda" class="flex items-center gap-3 group">
-          <img src="./Bahan/Pesantren%20Al%20Quran%20Darul%20Khair.jpeg" alt="Logo Saquin & Pesantren Darul Khoir" class="h-12 sm:h-14 w-auto object-contain transition-transform group-hover:scale-105 duration-300">
-          <div class="hidden sm:block border-l-2 border-slate-200 pl-3">
-            <p class="text-[13px] font-extrabold text-slate-800 tracking-tight leading-tight">SEKOLAH AL-QUR'AN INDONESIA</p>
-            <p class="text-[11px] font-medium text-saquin-emerald">Pesantren Al-Qur'an Darul Khoir Bogor</p>
+          <img src="./Bahan/Pesantren%20Al%20Quran%20Darul%20Khair.jpeg" alt="Logo Saquin" class="h-12 w-auto object-contain rounded-lg transition-transform group-hover:scale-105 duration-300">
+          <div>
+            <span class="text-lg font-black text-slate-900 tracking-tight leading-none block font-sans">SAQUIN</span>
+            <span class="text-[11px] font-semibold text-saquin-emerald leading-tight block mt-0.5">Pesantren Darul Khoir Bogor</span>
           </div>
         </a>
 
-        <!-- DESKTOP MENU -->
-        <nav class="hidden lg:flex items-center gap-6 xl:gap-8 font-medium text-[14px] text-slate-700">
+        <!-- DESKTOP MENU (Ringkas & Nyaman Dilihat) -->
+        <nav class="hidden lg:flex items-center gap-6 xl:gap-7 font-medium text-[14px] text-slate-700">
           <a href="#beranda" class="hover:text-saquin-emerald transition-colors font-semibold text-saquin-emerald">Beranda</a>
-          <a href="#tentang" class="hover:text-saquin-emerald transition-colors">Tentang Kami</a>
+          <a href="#tentang" class="hover:text-saquin-emerald transition-colors">Profil</a>
           <a href="#jenjang" class="hover:text-saquin-emerald transition-colors">Jenjang</a>
           <a href="#kurikulum" class="hover:text-saquin-emerald transition-colors">Kurikulum</a>
-          <a href="#ekskul" class="hover:text-saquin-emerald transition-colors">Ekstrakurikuler</a>
-          <a href="#video" class="hover:text-saquin-emerald transition-colors flex items-center gap-1">
-            <span class="relative flex h-2 w-2">
-              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-              <span class="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
-            </span>
-            Video
-          </a>
-          <a href="#galeri" class="hover:text-saquin-emerald transition-colors">Galeri</a>
-          <a href="#spmb" class="hover:text-saquin-emerald transition-colors">Biaya & SPMB</a>
+          <a href="#video" class="hover:text-saquin-emerald transition-colors">Video & Galeri</a>
+          <a href="#spmb" class="hover:text-saquin-emerald transition-colors">Biaya</a>
           <a href="#kontak" class="hover:text-saquin-emerald transition-colors">Kontak</a>
         </nav>
 
-        <!-- CTA BUTTON -->
+        <!-- CTA BUTTON (Langsung ke Link Formulir di Tab Baru) -->
         <div class="hidden sm:flex items-center gap-3">
-          <a href="#spmb" class="bg-gradient-to-r from-saquin-emerald to-saquin-emeraldLight text-white px-5 py-2.5 rounded-full font-semibold text-sm shadow-md hover:shadow-glow transition-all duration-300 flex items-center gap-2 transform hover:-translate-y-0.5">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <span>Daftar SPMB</span>
+          <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-r from-saquin-emerald to-saquin-emeraldLight hover:from-saquin-emeraldDark hover:to-saquin-emerald text-white px-5 py-2.5 rounded-full font-bold text-xs sm:text-sm shadow-md hover:shadow-glow transition-all duration-300 flex items-center gap-2 transform hover:-translate-y-0.5">
+            <i class="fa-solid fa-file-pen text-saquin-goldLight"></i>
+            <span>Daftar Online</span>
+            <i class="fa-solid fa-arrow-up-right-from-square text-[10px] opacity-80"></i>
           </a>
         </div>
 
         <!-- MOBILE BURGER BUTTON -->
         <div class="lg:hidden flex items-center gap-2">
-          <a href="#spmb" class="sm:hidden bg-saquin-emerald text-white px-3 py-1.5 rounded-full text-xs font-semibold">
-            Daftar
+          <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="sm:hidden bg-saquin-emerald text-white px-3 py-1.5 rounded-full text-xs font-bold flex items-center gap-1">
+            Daftar <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
           </a>
           <button id="mobileMenuBtn" aria-label="Menu" class="text-slate-700 hover:text-saquin-emerald p-2 rounded-lg focus:outline-none">
             <i class="fa-solid fa-bars text-2xl" id="menuIcon"></i>
@@ -312,22 +311,29 @@
 
     <!-- MOBILE DROPDOWN MENU -->
     <div id="mobileMenu" class="hidden lg:hidden border-t border-slate-100 bg-white px-4 pt-3 pb-6 shadow-xl space-y-2">
-      <a href="#beranda" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Beranda</a>
-      <a href="#tentang" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Tentang Saquin</a>
-      <a href="#jenjang" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Jenjang (SD & SMP/MTs/MA)</a>
-      <a href="#kurikulum" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Kurikulum Unggulan</a>
-      <a href="#ekskul" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Ekstrakurikuler</a>
-      <a href="#video" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Galeri Video (10 Video)</a>
-      <a href="#galeri" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Galeri Foto</a>
-      <a href="#spmb" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Biaya & Pendaftaran SPMB</a>
-      <a href="#kontak" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Lokasi & Kontak</a>
+      <a href="#beranda" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Beranda</a>
+      <a href="#tentang" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Profil Saquin</a>
+      <a href="#jenjang" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Jenjang SD & SMP/MTs/MA</a>
+      <a href="#kurikulum" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Kurikulum & Program</a>
+      <a href="#video" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Video & Galeri Kegiatan</a>
+      <a href="#spmb" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Biaya Pendidikan & SPMB</a>
+      <a href="#kontak" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-800 font-semibold hover:bg-emerald-50 hover:text-saquin-emerald">Lokasi & Kontak</a>
       <div class="pt-3 border-t border-slate-100 flex flex-col gap-2">
-        <a href="https://wa.me/6287715730916" target="_blank" class="w-full text-center bg-green-600 text-white py-2.5 rounded-xl font-semibold text-sm flex items-center justify-center gap-2">
-          <i class="fa-brands fa-whatsapp text-lg"></i> Chat Admin SD (0877-1573-0916)
+        <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-gradient-to-r from-saquin-gold to-yellow-500 text-slate-950 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow">
+          <i class="fa-solid fa-file-pen"></i> Isi Formulir Pendaftaran SPMB Online
+          <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
         </a>
-        <a href="https://wa.me/6285694448881" target="_blank" class="w-full text-center bg-saquin-emerald text-white py-2.5 rounded-xl font-semibold text-sm flex items-center justify-center gap-2">
-          <i class="fa-brands fa-whatsapp text-lg"></i> Chat Admin SMP/MTs/MA (0856-9444-8881)
+        <a href="tel:087871906812" class="w-full text-center bg-slate-800 text-white py-2.5 rounded-xl font-semibold text-xs flex items-center justify-center gap-2">
+          <i class="fa-solid fa-headset text-saquin-gold"></i> Call Center: 0878-7190-6812
         </a>
+        <div class="grid grid-cols-2 gap-2">
+          <a href="https://wa.me/6287715730916" target="_blank" class="text-center bg-green-600 text-white py-2 rounded-xl font-semibold text-xs flex items-center justify-center gap-1.5">
+            <i class="fa-brands fa-whatsapp text-sm"></i> Admin SD
+          </a>
+          <a href="https://wa.me/6287871906812" target="_blank" class="text-center bg-saquin-emerald text-white py-2 rounded-xl font-semibold text-xs flex items-center justify-center gap-1.5">
+            <i class="fa-brands fa-whatsapp text-sm"></i> Admin SMP/MA
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -379,9 +385,9 @@
 
           <!-- HERO ACTIONS -->
           <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-            <a href="#spmb" class="w-full sm:w-auto text-center bg-gradient-to-r from-saquin-gold to-yellow-500 text-slate-950 font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-glow-gold hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2">
+            <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto text-center bg-gradient-to-r from-saquin-gold to-yellow-500 hover:from-yellow-400 hover:to-saquin-gold text-slate-950 font-black px-8 py-4 rounded-full shadow-lg hover:shadow-glow-gold hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2">
               <i class="fa-solid fa-file-signature text-lg"></i>
-              <span>Daftar SPMB Online</span>
+              <span>Daftar SPMB Online ↗</span>
             </a>
             <a href="#video" class="w-full sm:w-auto text-center bg-white/15 hover:bg-white/25 border border-white/30 text-white font-semibold px-7 py-4 rounded-full backdrop-blur-md transition-all duration-300 flex items-center justify-center gap-2">
               <i class="fa-solid fa-circle-play text-red-400 text-lg"></i>
@@ -714,8 +720,8 @@
                   <p class="text-xs text-emerald-200 mt-0.5">SPP Flat Rp 300.000 / bulan | Free Outbound</p>
                 </div>
                 <div class="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
-                  <a href="#spmb" class="bg-saquin-gold hover:bg-yellow-400 text-slate-900 font-bold px-4 py-2.5 rounded-xl text-xs text-center transition">
-                    Lihat Syarat & Alur
+                  <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="bg-saquin-gold hover:bg-yellow-400 text-slate-900 font-bold px-4 py-2.5 rounded-xl text-xs text-center transition flex items-center justify-center gap-1.5 shadow">
+                    <i class="fa-solid fa-file-pen"></i> Daftar SD Online ↗
                   </a>
                   <a href="https://wa.me/6287715730916?text=Halo%20Admin%20SD%20Saquin%2C%20saya%20ingin%20info%20pendaftaran%20SD" target="_blank" class="bg-green-600 hover:bg-green-500 text-white font-bold px-4 py-2.5 rounded-xl text-xs text-center transition flex items-center justify-center gap-1.5">
                     <i class="fa-brands fa-whatsapp"></i> Chat Admin SD
@@ -803,10 +809,10 @@
                   <p class="text-xs text-emerald-200 mt-0.5">SPP Flat | Free Outbound Santri</p>
                 </div>
                 <div class="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
-                  <a href="#spmb" class="bg-saquin-gold hover:bg-yellow-400 text-slate-900 font-bold px-4 py-2.5 rounded-xl text-xs text-center transition">
-                    Lihat Syarat & Alur
+                  <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="bg-saquin-gold hover:bg-yellow-400 text-slate-900 font-bold px-4 py-2.5 rounded-xl text-xs text-center transition flex items-center justify-center gap-1.5 shadow">
+                    <i class="fa-solid fa-file-pen"></i> Daftar SMP/MA Online ↗
                   </a>
-                  <a href="https://wa.me/6285694448881?text=Halo%20Admin%20SMP%2FMTs%2FMA%20Saquin%2C%20saya%20ingin%20info%20pendaftaran" target="_blank" class="bg-green-600 hover:bg-green-500 text-white font-bold px-4 py-2.5 rounded-xl text-xs text-center transition flex items-center justify-center gap-1.5">
+                  <a href="https://wa.me/6287871906812?text=Halo%20Admin%20SMP%2FMTs%2FMA%20Saquin%2C%20saya%20ingin%20info%20pendaftaran" target="_blank" class="bg-green-600 hover:bg-green-500 text-white font-bold px-4 py-2.5 rounded-xl text-xs text-center transition flex items-center justify-center gap-1.5">
                     <i class="fa-brands fa-whatsapp"></i> Chat Admin SMP/MA
                   </a>
                 </div>
@@ -1135,7 +1141,7 @@
       <!-- FILTER TAB VIDEO -->
       <div class="flex justify-center flex-wrap gap-2 mb-10">
         <button onclick="filterVideos('all')" class="video-tab-btn active px-4 py-2 rounded-full text-xs sm:text-sm font-bold transition bg-saquin-gold text-slate-950 shadow" data-category="all">
-          Semua Video (10)
+          Semua Video (12)
         </button>
         <button onclick="filterVideos('seminar')" class="video-tab-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700" data-category="seminar">
           <i class="fa-solid fa-graduation-cap text-saquin-gold mr-1"></i> Seminar & Profil
@@ -1522,6 +1528,82 @@
           </div>
         </div>
 
+        <!-- VIDEO 11: Shorts 7siKeSZ4Vvk -->
+        <div class="video-item" data-category="kegiatan">
+          <div class="bg-slate-800/90 border border-slate-700/80 rounded-2xl overflow-hidden shadow-xl hover:border-saquin-gold/60 transition group flex flex-col h-full">
+            <div class="relative video-landscape overflow-hidden bg-black cursor-pointer" onclick="openVideoModal('7siKeSZ4Vvk', 'Aktivitas Santri & Suasana Pondok Saquin')">
+              <img src="https://img.youtube.com/vi/7siKeSZ4Vvk/hqdefault.jpg" alt="Aktivitas Santri Saquin" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition flex items-center justify-center">
+                <div class="w-14 h-14 rounded-full bg-red-600 group-hover:bg-red-500 text-white flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition duration-300">
+                  <i class="fa-solid fa-play ml-1"></i>
+                </div>
+              </div>
+              <span class="absolute top-3 left-3 bg-saquin-emerald/90 text-white text-[10px] font-bold px-2.5 py-0.5 rounded shadow">
+                Kegiatan Pondok
+              </span>
+              <span class="absolute top-3 right-3 bg-black/70 text-white text-[10px] px-2 py-0.5 rounded">
+                Shorts
+              </span>
+            </div>
+            <div class="p-4 flex flex-col justify-between flex-grow">
+              <div>
+                <h3 class="font-bold text-sm text-white group-hover:text-saquin-goldLight transition line-clamp-2">
+                  Aktivitas Santri & Suasana Belajar Pondok Saquin
+                </h3>
+                <p class="text-xs text-slate-400 mt-1 line-clamp-2">
+                  Dokumentasi keceriaan dan suasana santri dalam keseharian di lingkungan pesantren.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-700/60 flex items-center justify-between text-xs">
+                <button onclick="openVideoModal('7siKeSZ4Vvk', 'Aktivitas Santri & Suasana Pondok Saquin')" class="text-saquin-goldLight hover:underline font-semibold flex items-center gap-1">
+                  <i class="fa-solid fa-circle-play"></i> Putar Video
+                </button>
+                <a href="https://youtube.com/shorts/7siKeSZ4Vvk" target="_blank" class="text-slate-400 hover:text-white transition text-[11px]">
+                  Shorts <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VIDEO 12: Shorts TIAdXEBkIhs -->
+        <div class="video-item" data-category="kegiatan">
+          <div class="bg-slate-800/90 border border-slate-700/80 rounded-2xl overflow-hidden shadow-xl hover:border-saquin-gold/60 transition group flex flex-col h-full">
+            <div class="relative video-landscape overflow-hidden bg-black cursor-pointer" onclick="openVideoModal('TIAdXEBkIhs', 'Kegiatan Harian & Pembinaan Santri Saquin')">
+              <img src="https://img.youtube.com/vi/TIAdXEBkIhs/hqdefault.jpg" alt="Pembinaan Santri Saquin" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition flex items-center justify-center">
+                <div class="w-14 h-14 rounded-full bg-red-600 group-hover:bg-red-500 text-white flex items-center justify-center text-xl shadow-lg transform group-hover:scale-110 transition duration-300">
+                  <i class="fa-solid fa-play ml-1"></i>
+                </div>
+              </div>
+              <span class="absolute top-3 left-3 bg-amber-600/90 text-white text-[10px] font-bold px-2.5 py-0.5 rounded shadow">
+                Aktivitas & Pembinaan
+              </span>
+              <span class="absolute top-3 right-3 bg-black/70 text-white text-[10px] px-2 py-0.5 rounded">
+                Shorts
+              </span>
+            </div>
+            <div class="p-4 flex flex-col justify-between flex-grow">
+              <div>
+                <h3 class="font-bold text-sm text-white group-hover:text-saquin-goldLight transition line-clamp-2">
+                  Kegiatan Harian & Pembinaan Karakter Santri Saquin
+                </h3>
+                <p class="text-xs text-slate-400 mt-1 line-clamp-2">
+                  Momen pembinaan, kebersamaan, dan kedisiplinan santri di Pondok Pesantren Darul Khoir Saquin.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-700/60 flex items-center justify-between text-xs">
+                <button onclick="openVideoModal('TIAdXEBkIhs', 'Kegiatan Harian & Pembinaan Santri Saquin')" class="text-saquin-goldLight hover:underline font-semibold flex items-center gap-1">
+                  <i class="fa-solid fa-circle-play"></i> Putar Video
+                </button>
+                <a href="https://youtube.com/shorts/TIAdXEBkIhs" target="_blank" class="text-slate-400 hover:text-white transition text-[11px]">
+                  Shorts <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -1618,6 +1700,24 @@
           </div>
         </div>
 
+        <!-- Foto 9: Kegiatan MPLS Santri Baru -->
+        <div class="relative group rounded-3xl overflow-hidden shadow-card border-2 border-white cursor-pointer aspect-square" onclick="openLightbox('./Bahan/Kegiatan%20MPLS.jpeg', 'Masa Pengenalan Lingkungan Sekolah (MPLS) Santri Baru Saquin')">
+          <img src="./Bahan/Kegiatan%20MPLS.jpeg" alt="Kegiatan MPLS Saquin" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+            <span class="text-saquin-gold text-[10px] font-bold uppercase">MPLS Santri</span>
+            <p class="text-white text-xs font-bold">Masa Pengenalan Lingkungan Sekolah</p>
+          </div>
+        </div>
+
+        <!-- Foto 10: Kegiatan MPLS 2 Santri Baru -->
+        <div class="relative group rounded-3xl overflow-hidden shadow-card border-2 border-white cursor-pointer aspect-square" onclick="openLightbox('./Bahan/Kegiatan%20MPLS%202.jpeg', 'Kegiatan MPLS dan Adaptasi Budaya Belajar Saquin')">
+          <img src="./Bahan/Kegiatan%20MPLS%202.jpeg" alt="Kegiatan MPLS 2 Saquin" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+            <span class="text-saquin-gold text-[10px] font-bold uppercase">MPLS Santri</span>
+            <p class="text-white text-xs font-bold">Pengenalan Adab & Budaya Pondok</p>
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -1637,6 +1737,24 @@
         <p class="text-slate-600 mt-4 text-base sm:text-lg">
           Biaya pendidikan transparan, flat, dan terjangkau tanpa biaya tersembunyi. Dapatkan potongan spesial dengan mendaftar pada Gelombang 1!
         </p>
+      </div>
+
+      <!-- BANNER PENDAFTARAN RESMI BITLY -->
+      <div class="mb-12 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-saquin-emeraldDark via-saquin-emerald to-emerald-900 border-2 border-saquin-gold/60 text-white shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4 text-center md:text-left">
+          <div class="w-14 h-14 rounded-2xl bg-saquin-gold/20 border border-saquin-gold/40 flex items-center justify-center text-saquin-goldLight text-2xl flex-shrink-0 mx-auto md:mx-0">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-extrabold text-white">Formulir Pendaftaran SPMB Online TA 2027/2028</h3>
+            <p class="text-xs sm:text-sm text-emerald-100 mt-1">Pendaftaran langsung santri baru jenjang SD, SMP, MTs, dan MA secara praktis.</p>
+          </div>
+        </div>
+        <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-r from-saquin-gold to-yellow-400 hover:from-yellow-400 hover:to-saquin-gold text-slate-950 font-black px-7 py-4 rounded-2xl text-sm shadow-xl hover:scale-105 transition-all duration-300 flex items-center gap-2.5 whitespace-nowrap">
+          <i class="fa-solid fa-file-pen text-base"></i>
+          <span>Buka Formulir Pendaftaran</span>
+          <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+        </a>
       </div>
 
       <!-- TABEL PERBANDINGAN BIAYA -->
@@ -1719,9 +1837,13 @@
             </div>
           </div>
 
-          <div class="mt-6 pt-4 border-t border-slate-200">
-            <a href="https://wa.me/6287715730916?text=Halo%20Admin%20SD%20Saquin%2C%20saya%20ingin%20mendaftarkan%20anak%20saya%20di%20SD%20Saquin" target="_blank" class="w-full block text-center bg-gradient-to-r from-saquin-emerald to-saquin-emeraldLight text-white py-3.5 rounded-2xl font-bold text-sm shadow hover:shadow-glow transition">
-              <i class="fa-brands fa-whatsapp mr-1.5"></i> Daftar SD Saquin via WhatsApp
+          <div class="mt-6 pt-4 border-t border-slate-200 space-y-2">
+            <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-gradient-to-r from-saquin-emerald to-saquin-emeraldLight text-white py-3.5 rounded-2xl font-bold text-sm shadow hover:shadow-glow transition flex items-center justify-center gap-2">
+              <i class="fa-solid fa-file-pen text-saquin-goldLight"></i>
+              <span>Isi Formulir Pendaftaran SD Online ↗</span>
+            </a>
+            <a href="https://wa.me/6287715730916?text=Halo%20Admin%20SD%20Saquin%2C%20saya%20ingin%20mendaftarkan%20anak%20saya%20di%20SD%20Saquin" target="_blank" class="w-full block text-center text-slate-700 hover:text-saquin-emerald text-xs font-semibold py-1.5 transition">
+              <i class="fa-brands fa-whatsapp text-green-600 mr-1"></i> Konsultasi Chat Admin SD (0877-1573-0916)
             </a>
           </div>
         </div>
@@ -1803,9 +1925,13 @@
             </div>
           </div>
 
-          <div class="mt-6 pt-4 border-t border-white/20">
-            <a href="https://wa.me/6285694448881?text=Halo%20Admin%20SMP%2FMTs%2FMA%20Saquin%2C%20saya%20ingin%20mendaftarkan%20anak%20saya" target="_blank" class="w-full block text-center bg-gradient-to-r from-saquin-gold to-yellow-500 text-slate-950 py-3.5 rounded-2xl font-bold text-sm shadow hover:scale-105 transition">
-              <i class="fa-brands fa-whatsapp mr-1.5"></i> Daftar SMP / MTs - MA via WhatsApp
+          <div class="mt-6 pt-4 border-t border-white/20 space-y-2">
+            <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-gradient-to-r from-saquin-gold to-yellow-500 text-slate-950 py-3.5 rounded-2xl font-black text-sm shadow hover:scale-105 transition flex items-center justify-center gap-2">
+              <i class="fa-solid fa-file-pen"></i>
+              <span>Isi Formulir Pendaftaran SMP/MA Online ↗</span>
+            </a>
+            <a href="https://wa.me/6287871906812?text=Halo%20Admin%20SMP%2FMTs%2FMA%20Saquin%2C%20saya%20ingin%20mendaftarkan%20anak%20saya" target="_blank" class="w-full block text-center text-emerald-200 hover:text-white text-xs font-semibold py-1.5 transition">
+              <i class="fa-brands fa-whatsapp text-green-400 mr-1"></i> Konsultasi Chat Admin SMP/MA (0878-7190-6812)
             </a>
           </div>
         </div>
@@ -2040,14 +2166,26 @@
         
         <!-- Left: Quick Registration / WhatsApp Form -->
         <div class="lg:col-span-6 bg-slate-50 p-6 sm:p-10 rounded-3xl border border-slate-200 shadow-card">
-          <div class="flex items-center gap-2 mb-4">
+          <div class="flex items-center gap-2 mb-3">
             <span class="w-8 h-8 rounded-full bg-saquin-emerald text-white flex items-center justify-center text-xs font-bold">
               <i class="fa-brands fa-whatsapp text-sm"></i>
             </span>
             <h3 class="text-xl font-bold text-slate-900">Formulir Pendaftaran / Tanya Jawab</h3>
           </div>
+          
+          <!-- Tombol Akses Cepat Formulir Online -->
+          <div class="mb-5 p-3.5 bg-saquin-gold/15 border border-saquin-gold/40 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+            <span class="text-slate-800 font-medium">
+              <i class="fa-solid fa-file-pen text-saquin-gold mr-1"></i> Langsung isi formulir SPMB resmi online:
+            </span>
+            <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="bg-saquin-gold hover:bg-yellow-400 text-slate-950 font-black px-3.5 py-1.5 rounded-xl whitespace-nowrap shadow-sm flex items-center gap-1 transition">
+              <span>Buka Formulir</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            </a>
+          </div>
+
           <p class="text-xs sm:text-sm text-slate-600 mb-6">
-            Isi formulir di bawah ini, lalu klik kirim untuk langsung terhubung ke WhatsApp resmi panitia SPMB Saquin:
+            Atau kirim data melalui form berikut untuk terhubung langsung ke WhatsApp panitia:
           </p>
 
           <form id="waForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
@@ -2113,13 +2251,50 @@
               </div>
             </div>
 
-            <div class="pt-3 border-t border-slate-100 flex flex-wrap gap-4 text-xs font-semibold">
-              <a href="https://wa.me/6287715730916" target="_blank" class="text-emerald-700 hover:text-emerald-900 flex items-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-green-500 text-base"></i> SD: 0877 1573 0916
-              </a>
-              <a href="https://wa.me/6285694448881" target="_blank" class="text-emerald-700 hover:text-emerald-900 flex items-center gap-1.5">
-                <i class="fa-brands fa-whatsapp text-green-500 text-base"></i> SMP/MA: 0856 9444 8881
-              </a>
+            <!-- Kontak Resmi Saquin Lengkap -->
+            <div class="pt-3 border-t border-slate-100 space-y-2.5 text-xs font-semibold">
+              
+              <!-- Call Center -->
+              <div class="flex items-center justify-between p-3 rounded-xl bg-emerald-50/70 border border-emerald-200">
+                <span class="text-slate-800 flex items-center gap-2">
+                  <i class="fa-solid fa-headset text-saquin-emerald text-base"></i>
+                  <span><strong>Call Center:</strong> 0878-7190-6812</span>
+                </span>
+                <div class="flex items-center gap-2">
+                  <a href="tel:087871906812" class="bg-slate-800 hover:bg-slate-900 text-white px-2.5 py-1 rounded-lg text-[11px] font-bold">Telepon</a>
+                  <a href="https://wa.me/6287871906812" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-2.5 py-1 rounded-lg text-[11px] font-bold flex items-center gap-1">
+                    <i class="fa-brands fa-whatsapp"></i> WA
+                  </a>
+                </div>
+              </div>
+
+              <!-- Admin SD -->
+              <div class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <span class="text-slate-800 flex items-center gap-2">
+                  <i class="fa-brands fa-whatsapp text-green-600 text-base"></i>
+                  <span><strong>Admin SD:</strong> 0877-1573-0916</span>
+                </span>
+                <a href="https://wa.me/6287715730916" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded-lg text-[11px] font-bold flex items-center gap-1">
+                  <i class="fa-brands fa-whatsapp"></i> Chat WA
+                </a>
+              </div>
+
+              <!-- Admin SMP / MTs / MA -->
+              <div class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <span class="text-slate-800 flex items-center gap-2">
+                  <i class="fa-brands fa-whatsapp text-green-600 text-base"></i>
+                  <span><strong>Admin SMP/MTs/MA:</strong> 0878-7190-6812</span>
+                </span>
+                <div class="flex items-center gap-2">
+                  <a href="https://wa.me/6287871906812" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded-lg text-[11px] font-bold flex items-center gap-1">
+                    <i class="fa-brands fa-whatsapp"></i> Chat WA
+                  </a>
+                  <a href="https://wa.me/6285694448881" target="_blank" class="text-slate-500 hover:text-emerald-700 text-[11px]" title="Nomor Alternatif">
+                    (0856-9444-8881)
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
 
@@ -2199,11 +2374,11 @@
         <div class="lg:col-span-2 space-y-3">
           <h4 class="text-xs font-bold text-white uppercase tracking-wider">Informasi</h4>
           <ul class="space-y-2 text-xs">
-            <li><a href="#video" class="hover:text-white transition">Galeri Video (10 Video)</a></li>
+            <li><a href="#video" class="hover:text-white transition">Galeri Video (12 Video)</a></li>
             <li><a href="#galeri" class="hover:text-white transition">Galeri Foto</a></li>
             <li><a href="#spmb" class="hover:text-white transition">Biaya & SPMB</a></li>
             <li><a href="#kontak" class="hover:text-white transition">Alamat & Peta</a></li>
-            <li><a href="https://www.darulkhoir.or.id" target="_blank" class="hover:text-white transition">Website Resmi</a></li>
+            <li><a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" class="text-saquin-goldLight hover:underline transition">Formulir Online ↗</a></li>
           </ul>
         </div>
 
@@ -2214,8 +2389,9 @@
             Jl. Kp. Kandang RT 03 RW 01, Desa Tegal, Kemang, Bogor, Jawa Barat.
           </p>
           <div class="space-y-1.5 pt-1">
-            <p><strong class="text-white">Admin SD:</strong> <a href="https://wa.me/6287715730916" class="text-emerald-400 hover:underline">0877 1573 0916</a></p>
-            <p><strong class="text-white">Admin SMP/MTs/MA:</strong> <a href="https://wa.me/6285694448881" class="text-emerald-400 hover:underline">0856 9444 8881</a></p>
+            <p><strong class="text-white">Call Center:</strong> <a href="tel:087871906812" class="text-saquin-goldLight hover:underline font-bold">0878 7190 6812</a></p>
+            <p><strong class="text-white">Admin SD:</strong> <a href="https://wa.me/6287715730916" target="_blank" class="text-emerald-400 hover:underline">0877 1573 0916</a></p>
+            <p><strong class="text-white">Admin SMP/MTs/MA:</strong> <a href="https://wa.me/6287871906812" target="_blank" class="text-emerald-400 hover:underline">0878 7190 6812</a> <span class="text-slate-500">/ 0856 9444 8881</span></p>
             <p><strong class="text-white">Website:</strong> <a href="https://www.darulkhoir.or.id" class="text-emerald-400 hover:underline">www.darulkhoir.or.id</a></p>
           </div>
         </div>
@@ -2230,17 +2406,62 @@
     </div>
   </footer>
 
-  <!-- FLOATING WHATSAPP BUTTON -->
-  <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+  <!-- FLOATING QUICK CONTACT & WHATSAPP WIDGET -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3" id="floatingWidget">
     
-    <!-- WhatsApp Floating Action -->
-    <div class="relative group">
-      <div class="absolute -top-10 right-0 bg-slate-900 text-white text-[11px] font-semibold px-3 py-1 rounded-lg shadow-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-        Chat Panitia SPMB Saquin
+    <!-- Quick Contact Popup Menu -->
+    <div id="quickContactMenu" class="hidden flex-col gap-2 bg-white p-3.5 rounded-3xl shadow-2xl border border-slate-200 min-w-[260px] mb-1">
+      <div class="text-[11px] font-bold text-slate-500 uppercase tracking-wider px-2 py-1 border-b border-slate-100 flex items-center justify-between">
+        <span class="flex items-center gap-1.5 text-slate-700">
+          <i class="fa-solid fa-headset text-saquin-emerald"></i> Layanan Cepat SPMB
+        </span>
+        <button onclick="toggleQuickMenu()" class="text-slate-400 hover:text-slate-700 p-1">
+          <i class="fa-solid fa-xmark text-sm"></i>
+        </button>
       </div>
-      <a href="https://wa.me/6287715730916?text=Halo%20Admin%20Saquin%2C%20saya%20ingin%20konsultasi%20pendaftaran%20sekolah" target="_blank" aria-label="Hubungi via WhatsApp" class="w-14 h-14 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white flex items-center justify-center text-3xl shadow-glow transition transform hover:scale-110">
-        <i class="fa-brands fa-whatsapp"></i>
+      
+      <!-- Link Pendaftaran Bitly -->
+      <a href="https://bit.ly/FormulirPendaftaranSAQUIN2728" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2.5 px-3 py-2.5 rounded-2xl bg-gradient-to-r from-saquin-gold to-yellow-400 hover:from-yellow-400 hover:to-saquin-gold text-slate-950 font-black text-xs shadow transition">
+        <i class="fa-solid fa-file-pen text-base"></i>
+        <div class="flex-grow">
+          <p class="leading-none">Formulir SPMB Online ↗</p>
+          <span class="text-[10px] font-normal text-slate-800">Daftar langsung di sini</span>
+        </div>
       </a>
+
+      <!-- Call Center -->
+      <a href="tel:087871906812" class="flex items-center gap-2.5 px-3 py-2 rounded-xl bg-slate-50 hover:bg-emerald-50 text-slate-800 font-semibold text-xs border border-slate-100 transition">
+        <i class="fa-solid fa-phone text-saquin-emerald text-sm"></i>
+        <div>
+          <p class="text-[10px] text-slate-500 font-medium leading-none">Call Center Resmi</p>
+          <p class="leading-tight text-slate-900 font-bold">0878-7190-6812</p>
+        </div>
+      </a>
+
+      <!-- WhatsApp Admin SD -->
+      <a href="https://wa.me/6287715730916" target="_blank" class="flex items-center gap-2.5 px-3 py-2 rounded-xl bg-slate-50 hover:bg-emerald-50 text-slate-800 font-semibold text-xs border border-slate-100 transition">
+        <i class="fa-brands fa-whatsapp text-green-500 text-base"></i>
+        <div>
+          <p class="text-[10px] text-slate-500 font-medium leading-none">Chat Admin SD</p>
+          <p class="leading-tight text-slate-900 font-bold">0877-1573-0916</p>
+        </div>
+      </a>
+
+      <!-- WhatsApp Admin SMP/MA -->
+      <a href="https://wa.me/6287871906812" target="_blank" class="flex items-center gap-2.5 px-3 py-2 rounded-xl bg-slate-50 hover:bg-emerald-50 text-slate-800 font-semibold text-xs border border-slate-100 transition">
+        <i class="fa-brands fa-whatsapp text-green-500 text-base"></i>
+        <div>
+          <p class="text-[10px] text-slate-500 font-medium leading-none">Chat Admin SMP / MTs / MA</p>
+          <p class="leading-tight text-slate-900 font-bold">0878-7190-6812</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Trigger Button -->
+    <div class="relative group">
+      <button onclick="toggleQuickMenu()" aria-label="Hubungi Kami" class="w-14 h-14 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white flex items-center justify-center text-3xl shadow-glow transition transform hover:scale-110 focus:outline-none">
+        <i class="fa-brands fa-whatsapp"></i>
+      </button>
     </div>
 
     <!-- Back to Top Button -->
@@ -2446,6 +2667,15 @@
       }
     });
 
+    // QUICK CONTACT MENU TOGGLE
+    function toggleQuickMenu() {
+      const menu = document.getElementById('quickContactMenu');
+      if (menu) {
+        menu.classList.toggle('hidden');
+        menu.classList.toggle('flex');
+      }
+    }
+
     // FORM TO WHATSAPP DISPATCHER
     function handleFormSubmit(e) {
       e.preventDefault();
@@ -2458,7 +2688,7 @@
       // Select target WhatsApp number based on level
       let targetWa = '6287715730916'; // default SD
       if (jenjang.includes('SMP') || jenjang.includes('MTs') || jenjang.includes('MA')) {
-        targetWa = '6285694448881';
+        targetWa = '6287871906812'; // Admin SMP/MTs/MA & Call Center
       }
 
       const message = `*PENDAFTARAN SPMB ONLINE SAQUIN*
